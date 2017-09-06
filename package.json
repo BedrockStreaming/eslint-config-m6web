@@ -4,7 +4,7 @@
   "description": "eslint-config-m6web",
   "repository": {
     "type": "git",
-    "url": "git://github.m6web.fr:m6web/eslint-config-m6web.git"
+    "url": "https://github.com/M6Web/eslint-config-m6web"
   },
   "author": "M6web",
   "license": "",
