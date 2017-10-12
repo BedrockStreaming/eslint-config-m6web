@@ -36,6 +36,24 @@ module.exports = {
     // inline comments are forbidden
     "no-inline-comments": "error",
 
+    // prefer destructuring on object declaration only
+    "prefer-destructuring": [
+      "error",
+      {
+        VariableDeclarator: {
+          array: false,
+          object: true,
+        },
+        AssignmentExpression: {
+          array: false,
+          object: false,
+        },
+      },
+      {
+        enforceForRenamedProperties: false,
+      },
+    ],
+
     // allow ".js" to be a valid extension for JSX files
     "react/jsx-filename-extension": ["error", {"extensions": [".js", ".jsx"]}],
 
