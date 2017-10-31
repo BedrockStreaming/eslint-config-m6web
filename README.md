@@ -3,13 +3,13 @@
 ## Setup
 
 ```shell
-npm install eslint-config-m6web
+npm install --save-dev eslint eslint-config-m6web
 ```
 
 or 
 
 ```shell
-yarn add eslint-config-m6web
+yarn add --dev eslint eslint-config-m6web
 ```
 
 ## Usage
@@ -17,7 +17,10 @@ yarn add eslint-config-m6web
 Extends the configuration in the `.eslintrc` file at the root of your project.
 ```json
 {
-  "extends": "m6web"
+  "extends": "m6web",
+  "rules": {
+    // Additional, per-project rules...
+  }
 }
 ```
 
