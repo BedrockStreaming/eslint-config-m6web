@@ -1,5 +1,5 @@
 # DEPRECATED
-### Use https://github.com/M6Web/eslint-tools/tree/master/packages/eslint-plugin
+### Use https://github.com/M6Web/eslint-tools/tree/master/packages/eslint-config
 
 ![build status](https://travis-ci.org/M6Web/eslint-config-m6web.svg?branch=master)
 
