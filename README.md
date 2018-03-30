@@ -1,3 +1,6 @@
+# DEPRECATED
+### Use https://github.com/M6Web/eslint-tools/tree/master/packages/eslint-plugin
+
 ![build status](https://travis-ci.org/M6Web/eslint-config-m6web.svg?branch=master)
 
 ## Setup
